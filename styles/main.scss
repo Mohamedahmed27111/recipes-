@@ -5,10 +5,14 @@
 @tailwind utilities;
 
 body{
-    background-color: rgb(204, 204, 204);
+    background-color: #EAE7DC;
+    @apply font-cinzel ;
 }
 
+.router-link-active{
+    @apply text-red-2
+}
 
 .card{
-    @apply bg-white rounded overflow-hidden shadow-md relative h-full ;
+    @apply bg-white rounded overflow-hidden shadow-md relative ;
 }

@@ -13,16 +13,20 @@ export default {
   theme: {
     extend: {
       colors: {
-        prim: "#D2001A",
-        sec: "#FFDE00",
-        WG: {
-          1: " #FFFAE7",
-          2: "#EFEFEF",
-        },
+        prim: '#EAE7DC',
+        sec: '#D8C3A5',
+        G: '#8E8D8A',
+        red:{
+          1:'#E98074',
+          2:'#E85A4F'
+        }
       },
       fontFamily: {
         cinzel: ["Cinzel"],
       },
+      height:{
+        custom: '380px',
+      }
     },
   },
   plugins: [require("flowbite/plugin")],
